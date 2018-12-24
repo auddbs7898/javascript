@@ -1,0 +1,6 @@
+@import 'base.css';/*base.css불러오기*/
+.boxes{ border: 10px solid #0f0; padding: 2%}
+.box{ width: 100px; height: 100px; border: 10px solid #f00; background-color: sandybrown; position: relative;}
+.bts{ margin-top: 2rem; text-align: center;}
+#bt_run{}
+#bt_reset{}

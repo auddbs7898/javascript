@@ -1,0 +1,13 @@
+@import 'base.css';
+.box{ width: 20px; height: 20px; border: 2px solid red; padding: 2px;
+animation-duration: 1s;/* animation-name: bgani; animation-delay: 3s; */ 
+animation-fill-mode: forwards; float: left;background-color: #ffff00}
+
+@keyframes bgani{
+0%{background-color: #ffff00}
+100%{background-color: red}
+}
+@keyframes bganiBack{
+    0%{background-color:red}
+    100%{background-color: #ffff00 }
+}
